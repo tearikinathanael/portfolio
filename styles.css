@@ -122,12 +122,19 @@ h3 {
 }
 
 .nav-toggle {
-  display: none;
+  display: none;                /* reste caché sur desktop */
   background: none;
   border: 1px solid var(--border-soft);
   border-radius: 999px;
-  padding: 6px 10px;
+  width: 40px;                  /* taille du bouton */
+  height: 40px;
+  padding: 0;
+  font-size: 1.6rem;            /* taille de l’icône ☰ */
+  line-height: 1;
   color: var(--text-main);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* HERO */
